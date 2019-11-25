@@ -1,9 +1,55 @@
-@import url(../blocks/header/header.css);
+@import url(../blocks/fotograph/fotograph.css);
+@import url(../blocks/item-main/item-main.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/place-image/place-image.css);
+@import url(../blocks/title/title.css);
+
+@font-face {
+    src:url(../Fonts/Calistoga/Calistoga-Regular.ttf);
+    font-family: 'Inter';
+}
 
 .page{
 min-width:1280px ;
 max-width: 1440px;
 width:100% ;
 background-color: #2a2c2f ;
+text-align: center;
+border: 1px solid red;
 }
 
+.header{
+    width: 1184px;
+    height: 52px;
+    padding-top:30px;
+    display: flex;
+    align-items: flex-end;
+    margin: 0px auto;
+    
+}
+.header__language{
+    width: 30px;
+    height: 23px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 23px;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.header__language:hover{
+text-decoration: underline;
+}
+.header__language_rus{
+    margin-right:18px;
+ 
+}
+
+
+.lead{
+    width: 985px;
+    height: 950px;
+    margin-top: 48px;
+}
