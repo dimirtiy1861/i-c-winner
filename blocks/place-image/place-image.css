@@ -1,10 +1,15 @@
-@import url(./__subtiitle/place-image__subtitle.css);
-@import url(./__title/place-image__title.css);
+@import url(./__image/place-image__image.css);
+@import url(./__block/place-image__block.css);
+
+
 
 
 
 .place-image{
-    width: 984px;
+    width: 248px;
     color:white;
-    display: flex;
+   
+    margin:0px auto 102px;
+  
+    position: relative;
 }

@@ -2,6 +2,8 @@
 @import url(./__subtitle/description__subtitle_place_inro.css);
 @import url(./_title/description__title_place_lead.css);
 @import url(./__subtitle/description__subtitle_place_lead.css);
+@import url(./__subtitle/description__subtitle_place_place-image.css);
+@import url(./_title/description__title_place_place-image.css);
 
 
 .description{
