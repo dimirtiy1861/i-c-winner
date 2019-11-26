@@ -1,2 +1,10 @@
 @import url(./__subtiitle/place-image__subtitle.css);
 @import url(./__title/place-image__title.css);
+
+
+
+.place-image{
+    width: 984px;
+    color:white;
+    display: flex;
+}

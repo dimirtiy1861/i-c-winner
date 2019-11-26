@@ -1,0 +1,11 @@
+@import url(./_title/description__title_place_intro.css);
+@import url(./__subtitle/description__subtitle_place_inro.css);
+@import url(./_title/description__title_place_lead.css);
+@import url(./__subtitle/description__subtitle_place_lead.css);
+
+
+.description{
+font-family: Inter;
+font-style: normal;
+color:white;
+}

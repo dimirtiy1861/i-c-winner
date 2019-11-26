@@ -1,3 +1,6 @@
 @import url(./__link/item-main__link.css);
 @import url(./__paragraph/item-main__paragraph.css);
 @import url(./__url/item-main__url.css);
+@import url(./__column/item-main__column.css);
+@import url(./_image/place-image__image.css);
+@import url(./__title/item-main__title.css);

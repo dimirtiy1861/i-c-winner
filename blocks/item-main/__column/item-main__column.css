@@ -1,0 +1,11 @@
+@import url(./_left/item-main__column_left.css);
+@import url(./_right/item-main__column_right.css);
+
+.item-main__column{
+    width: 460px;
+    height: 653px;
+    color: white;
+    margin-bottom: 72px;
+   
+    
+}

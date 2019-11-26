@@ -2,10 +2,10 @@
 @import url(../blocks/item-main/item-main.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/place-image/place-image.css);
-@import url(../blocks/title/title.css);
+@import url(../blocks/description/description.css);
 
 @font-face {
-    src:url(../Fonts/Calistoga/Calistoga-Regular.ttf);
+    src:url(../Fonts/inter-ui/Inter-Black.otf);
     font-family: 'Inter';
 }
 
@@ -15,7 +15,6 @@ max-width: 1440px;
 width:100% ;
 background-color: #2a2c2f ;
 text-align: center;
-border: 1px solid red;
 }
 
 .header{
@@ -51,5 +50,63 @@ text-decoration: underline;
 .lead{
     width: 985px;
     height: 950px;
-    margin-top: 48px;
+    margin: 48px auto 0px;
+}
+
+.intro{
+    width: 984px;
+    display: flex;
+    margin:0px auto;
+    color:white;
+    background-color: #2a2c2f;
+    text-align: left;
+    padding-bottom:92px ;
+}
+
+.intro__left{
+    width:75%
+}
+
+.intro__right{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding-left:18px;
+}
+.intro__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 34px;
+    margin: 0px 0px 0px 0px;
+}
+
+.intro__about-text{
+    margin:0px;
+}
+
+.intro__left .intro__text{
+    margin-bottom:18px;
+}
+.plases{
+    background-color:#2a2c2f ;
+    width: 984px;
+    display: flex;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    
+}
+
+
+
+/*Секция с фотограффиями */
+
+.photo-grid{
+    margin:0px auto 92px;
+    width: 1184px;
+    height: 596px;
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }

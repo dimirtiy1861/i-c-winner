@@ -1,0 +1,15 @@
+@import url(./_for-title-one-line/item-main__url_for-title-one-line.css);
+@import url(./_for-title-two-line/item-main__url_for-title-two-line.css);
+
+.item-main__url{
+width: 484px;
+height: 12px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 0.2em;
+color: #AAAAAA;
+text-decoration: none;
+}

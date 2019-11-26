@@ -1,0 +1,17 @@
+.item-main__link{
+text-decoration: none;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+color: white;
+padding-bottom: 60px;
+}
+
+.item-main__link:hover{
+text-decoration: underline;
+display: inline-block;
+transform: scale(1.2);
+padding-bottom: 0px;
+}
