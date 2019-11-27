@@ -9,6 +9,7 @@
     <meta name="description" content="Первая курсовая работа">
     <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 </head>
 
 <body>
@@ -65,7 +66,7 @@
             <img class="photo-grid__img" src="./images/images/__item(11).png">
 
         </section>
-        <section class="plases">
+        <section class="item-main">
             <div class="item-main__column item-main__column_left">
                 <h2 class="item-main__title">Куршская коса</h2>
                 <img class="item-main__image" src="./images/kurshskaya.png" alt="Куршская коса">
@@ -152,35 +153,149 @@
             </div>
 
         </section>
+        <section class="video">
+            <!-- я сначала сделал сам этот раздел, потом вспомнил что он упоминался в теории. Так у меня структура и названия чуть отличаются, но думаю что в рамкахм БЭМ. не знаю, нужно ли переделывать-->
+            <h2 class="description description__title_place_video">В глубины Земли и в дальний космос</h2>
+            <h3 class="description description__subtitle_place_video">Видео от студии Stereotactic о местах в России,
+                где ведутся фундаментальные исследования</h3>
+            <div class="video__conteiner">
+                <div class="video__iframes">
+                    <img class="video__iframe" src="./images/Image.png" alt="video one">
+                    <img class="video__marker" src="images/__icon_play.png" alt="play icon">
+                    <p class="video__time">6:30</p>
+                    <p class="video__text video__text_title">Colors of Kamchatka
+                    </p>
+                    <p class="video__text video__text_director">Director: Pavel Karykhalin</p>
+                </div>
 
+                <div class="video__iframes">
+
+                    <img class="video__iframe" src="./images/Image(1).png">
+                    <img class="video__marker" src="images/__icon_play.png" alt="play icon">
+                    <p class="video__time">6:30</p>
+                    <p class="video__text video__text_title">Обсерватория | Observatory
+                    </p>
+                    <p class="video__text video__text_director">Director: Alexander Khudokon </p>
+                </div>
+            </div>
+
+        </section>
         <section class="additional">
 
-                <h2 class="description__title description__title_additional">А так же </h2>
-                <h3 class="description__subtitle description__subtitle_additional">места, рекомендованные нашими фотографами</h3>
-            <div class="place-image__block">
+            <h2 class="description description__title_place_additional">А так же </h2>
+            <h3 class="description description__subtitle_place_additional">места, рекомендованные нашими фотографами
+            </h3>
+            <div class="place-images">
                 <div class="place-image">
                     <img class="place-image__image" src="./images/place-images/novoros.png" alt="Новороссийск">
-                    <h2 class="description__title description__title_place_place-image">Новороссийская бухта</h2>
-                    <h3 class="description__subtitle description__subtitle_place_place-image">Главный торговый порт не
+                    <h2 class="description description__title_place_place-image">Новороссийская бухта</h2>
+                    <h3 class="description description__subtitle_place_place-image">Главный торговый порт не
                         курорт, но море здесь лазурное, и толпы кораблей на рейде. Залюбуешься.</h3>
                 </div>
                 <div class="place-image">
                     <img class="place-image__image" src="./images/place-images/arakul.png" alt="Аракульск">
-                    <h2 class="description__title description__title_place_place-image">Аракульский шихан</h2>
-                    <h3 class="description__subtitle description__subtitle_place_place-image">Даже для Южного Урала, где красиво везде, это пейзаж выдающийся. И там отсутствует несносная мошкá.</h3>
+                    <h2 class="description description__title_place_place-image">Аракульский шихан</h2>
+                    <h3 class="description description__subtitle_place_place-image">Даже для Южного Урала, где
+                        красиво везде, это пейзаж выдающийся. И там отсутствует несносная мошкá.</h3>
                 </div>
                 <div class="place-image">
                     <img class="place-image__image" src="./images/place-images/novoros.png" alt="Новороссийск">
-                    <h2 class="description__title description__title_place_place-image">Череповец</h2>
-                    <h3 class="description__subtitle description__subtitle_place_place-image">Громадный металлургический комбинат на водном пути с Волги в Балтийское море. В нём есть своя красота.</h3>
+                    <h2 class="description description__title_place_place-image">Череповец</h2>
+                    <h3 class="description description__subtitle_place_place-image">Громадный металлургический
+                        комбинат на водном пути с Волги в Балтийское море. В нём есть своя красота.</h3>
                 </div>
                 <div class="place-image">
                     <img class="place-image__image" src="./images/place-images/novoros.png" alt="Новороссийск">
-                    <h2 class="description__title description__title_place_place-image">Никола-Ленивец</h2>
-                    <h3 class="description__subtitle description__subtitle_place_place-image">Оцените ответ современных художников идолам капища, которое было тут при древнем поселении на реке Угра.</h2>
+                    <h2 class="description description__title_place_place-image">Никола-Ленивец</h2>
+                    <h3 class="description description__subtitle_place_place-image">Оцените ответ современных
+                        художников идолам капища, которое было тут при древнем поселении на реке Угра.</h2>
                 </div>
             </div>
 
+        </section>
+        <section class="fotograph">
+            <h2 class="description description__title_place_fotograph">Фотографы, снимающие Россию</h2>
+            <h3 class="description description__subtitle_place_fotograph">Природа и люди вдохновили их работы,
+                удостоенные наград на международных конкурсах
+            </h3>
+            <div class="foto-person">
+                <div class="foto-person__card">
+                    <img class="foto-person__card_image" src="./images/untitled (4).png" alt="fotografh">
+                    <blockquote class="foto-person__card_citate">«Если вам кажется, что в России ничего не происходит,
+                        то просто выгляньте “наружу”…»</blockquote>
+                    <p class="foto-person__card_author">Виктор Лягушкин</p>
+                </div>
+
+                <div class="foto-person_card">
+                    <div class="foto-person__card">
+                        <img class="foto-person__card_image" src="./images/untitled (3).png" alt="fotografh">
+                        <blockquote class="foto-person__card_citate">«Если в город едут туристы — неважно за чем они
+                            туда
+                            едут: за шамбалой или фрески Рублева искать, или на родину Тарковского — туристы
+                            обеспечивают
+                            любой город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»
+                        </blockquote>
+                        <p class="foto-person__card_author">Иван Хафизов</p>
+                    </div>
+                </div>
+                <div class="foto-person_card">
+                    <div class="foto-person__card">
+                        <img class="foto-person__card_image" src="./images/untitled (1).png" alt="fotografh">
+                        <blockquote class="foto-person__card_citate">«Ты приезжаешь, и люди рассказывают тебе, как им
+                            плохо.
+                            А когда ты покажешь, как им плохо, то ты сволочь и всё очернил.»</blockquote>
+                        <p class="foto-person__card_author">Сергей Максимишин</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <section class="baykal">
+            <img class="baykal__img" alt="baykal" src="images/baykal1.png">
+            <h2 class="description description__title_place_baykal">До Байкала «на собаках»</h2>
+            <h3 class="description description__subtitle_place_baykal">По мотивам учебной темы о Транссибе и
+                iframes — путешествие от столицы до Байкала на электричках.</h3>
+        </section>
+        <section class="geraldry">
+            <h2 class="description description__title_place_geraldry">Природа на гербах российских городов</h2>
+            <div class="geraldry__conteiner">
+                <div class="geraldry-conteiners">
+                    <img class="geraldry__mark" src="./images/vnovgorod (1).png">
+                    <p class="geraldry__name">Великий Новгород</p>
+                </div>
+
+                <div class="geraldry-conteiners">
+                    <img class="geraldry__mark" src="./images/Rostov.png">
+                    <p class="geraldry__name">Ростов Великий</p>
+                </div>
+                <div class="geraldry-conteiners">
+                    <img class="geraldry__mark" src="./images/Tambov.png">
+                    <p class="geraldry__name">Тамбов</p>
+                </div>
+                <div class="geraldry-conteiners">
+                    <img class="geraldry__mark" src="./images/elabuga.png">
+                    <p class="geraldry__name">Елабуга</p>
+                </div>
+                <div class="geraldry-conteiners">
+                    <img class="geraldry__mark" src="./images/perm.png">
+                    <p class="geraldry__name">Пермь</p>
+                </div>
+            </div>
+
+        </section>
+        <section class="barents">
+            <h2 class="description description__title_place_barents">Баренцбург</h2>
+            <p class="description description__subtitle_place_barents">78.0648&#176; С.Ш. 14.2335&#176; В.Д.</p>
+            <div class="barents__map"></div>
+            <div class="barents__conteiner">
+                <p class="barents__text">Арктика и соседство с Норвегией — мало кто знает о жизни самого западного
+                    российского посёлка, который находится на Шпицбергене.</p>
+                <div class="barents__url-text">
+                    <p class="barents__url">URL</p>
+                    <p class="barents__text">Умереть или родиться здесь практически невозможно</p>
+                </div>
+            </div>
         </section>
     </section>
 </body>

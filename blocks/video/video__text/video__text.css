@@ -1,0 +1,9 @@
+@import url(./_director/video__text_director.css);
+@import url(./_title/video__text_title.css);
+
+.video__text {
+    font-family: 'Inter';
+    font-style: normal;
+    color:white;
+    text-align: left;
+}

@@ -1,0 +1,8 @@
+.video__marker{
+    background-image: url(../../../images/__icon_play.png);
+    width: 41px;
+    height: 41px;
+    top:30px;
+    left:30px;
+    position: absolute;
+}

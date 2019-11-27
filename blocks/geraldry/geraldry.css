@@ -1,0 +1,9 @@
+@import url(./__conteiner/geraldry__conteiner.css);
+@import url(./__conteiners/geraldry__conteiners.css);
+@import url(./__name/geraldry__name.css);
+@import url(./mark/geraldry__mark.css);
+
+.geraldry{
+    width:1184px;
+    margin:0px auto 85px;
+}

@@ -1,0 +1,11 @@
+@import url(./__conteiner/video__conteiner.css);
+@import url(./__iframe/video__iframe.css);
+@import url(./__iframes/video__iframes.css);
+@import url(./__marker/video__marker.css);
+@import url(./time/video__time.css);
+@import url(./video__text/video__text.css);
+
+.video{
+    width: 1184px;
+    margin:0px auto 102px;
+}

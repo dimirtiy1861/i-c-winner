@@ -3,11 +3,12 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/place-image/place-image.css);
 @import url(../blocks/description/description.css);
+@import url(../blocks/foto-person/foto-person.css);
+@import url(../blocks/baykal/baykal.css);
+@import url(../blocks/geraldry/geraldry.css);
+@import urL(../blocks/barents/barents.css);
+@import url(../blocks/video/video.css);
 
-@font-face {
-    src:url(../Fonts/inter-ui/Inter-Black.otf);
-    font-family: 'Inter';
-}
 
 .page{
 min-width:1280px ;
@@ -15,6 +16,8 @@ max-width: 1440px;
 width:100% ;
 background-color: #2a2c2f ;
 text-align: center;
+margin:0px auto;
+
 }
 
 .header{
@@ -29,7 +32,7 @@ text-align: center;
 .header__language{
     width: 30px;
     height: 23px;
-    font-family: 'Inter';
+    font-family: 'Pacifico-Regular';
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -89,7 +92,7 @@ text-decoration: underline;
 .intro__left .intro__text{
     margin-bottom:18px;
 }
-.plases{
+.item-main{
     background-color:#2a2c2f ;
     width: 984px;
     display: flex;

@@ -1,0 +1,12 @@
+@import url(./__conteiner/barents__conteiner.css);
+@import url(./__map/barents__map.css);
+@import url(./__text/barents__text.css);
+@import url(./__url-text/barents__url-text.css);
+@import url(./__url/barents__url.css);
+
+
+.barents{
+    width: 1184px;
+    margin: 0px auto;    
+    padding-bottom: 160px;
+}

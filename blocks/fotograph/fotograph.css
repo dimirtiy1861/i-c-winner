@@ -1,3 +1,10 @@
 @import url(./__image/fotograph__image.css);
 @import url(./__name/fotograph__name.css);
 @import url(./__text/fotograph__text.css);
+
+.fotograph{
+    width: 1184px;
+margin:0px auto 102px;
+background-color: #2a2c2f;
+text-align: center;
+}

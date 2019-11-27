@@ -1,0 +1,10 @@
+@import url(./_card/_author/foto-person__card_author.css);
+@import url(./_card/_citate/foto-person__card_citate.css);
+@import url(./_card/_image/foto-person__card_image.css);
+@import url(./_card/foto-person__card.css);
+
+.foto-person{
+    width: 1184px;
+    display: flex;
+    justify-content: space-between;
+}
