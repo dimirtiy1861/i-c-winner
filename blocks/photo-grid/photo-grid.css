@@ -1,0 +1,8 @@
+.photo-grid{
+    margin:0px auto 92px;
+    width: 1184px;
+    height: 596px;
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

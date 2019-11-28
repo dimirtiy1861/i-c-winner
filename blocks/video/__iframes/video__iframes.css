@@ -3,3 +3,7 @@
     height: 323px;
     position: relative;
 }
+
+.video__iframes:hover{
+    opacity: .5;
+}

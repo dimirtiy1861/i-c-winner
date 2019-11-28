@@ -1,0 +1,13 @@
+.video__iframe-fon{
+    background-image: url(../../../images/fonVideo.png);
+    width: 583px;
+    height: 323px;
+    margin-top: -327px;
+
+    /*position: relative;
+    opacity: 0.99;  
+}
+
+.video__iframe-fon:hover{
+    opacity: .2;
+}*/

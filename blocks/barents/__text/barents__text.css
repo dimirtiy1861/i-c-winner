@@ -8,8 +8,17 @@ font-family: 'Inter';
 color: white;
 width: 380px;
 text-align: left;
+
 }
 
 .barents__url-text .barents__text{
     width: 282px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.barents__url-text .barents__text:hover{
+ opacity: 0.7;
+
 }

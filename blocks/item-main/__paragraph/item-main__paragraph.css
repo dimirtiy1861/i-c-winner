@@ -1,5 +1,5 @@
 .item-main__paragraph{    
-    font-family: Pacifico-Regular;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -7,7 +7,4 @@
     padding-top:0px;
     margin-top:0px;
    padding-top: 36px;
-
-
-
-}
+  }

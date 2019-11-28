@@ -1,0 +1,14 @@
+@import url(./__left/intro__left.css);
+@import url(./__right/intro__right.css);
+@import url(./__text/intro__text.css);
+@import url(./about-text/intro__about-text.css);
+
+.intro{
+    width: 984px;
+    display: flex;
+    margin:0px auto;
+    color:white;
+    background-color: #2a2c2f;
+    text-align: left;
+    padding-bottom:92px ;
+}

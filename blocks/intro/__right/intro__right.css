@@ -1,0 +1,6 @@
+.intro__right{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding-left:18px;
+}

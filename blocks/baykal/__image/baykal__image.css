@@ -1,3 +1,7 @@
-.baykal__img{
-    opacity:.8;
+.baykal__image{
+    width: 1184px;
+    height: 594px;
+    margin:0px auto;
+    background-image: url(../../../images/baykalsobaka.jpg);
 }
+

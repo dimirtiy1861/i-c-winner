@@ -4,6 +4,7 @@
 @import url(./__marker/video__marker.css);
 @import url(./time/video__time.css);
 @import url(./video__text/video__text.css);
+@import url(./__iframe-fon/video__iframe-fon.css);
 
 .video{
     width: 1184px;

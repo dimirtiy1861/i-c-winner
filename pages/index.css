@@ -8,108 +8,11 @@
 @import url(../blocks/geraldry/geraldry.css);
 @import urL(../blocks/barents/barents.css);
 @import url(../blocks/video/video.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/photo-grid/photo-grid.css);
 
 
-.page{
-min-width:1280px ;
-max-width: 1440px;
-width:100% ;
-background-color: #2a2c2f ;
-text-align: center;
-margin:0px auto;
-
-}
-
-.header{
-    width: 1184px;
-    height: 52px;
-    padding-top:30px;
-    display: flex;
-    align-items: flex-end;
-    margin: 0px auto;
-    
-}
-.header__language{
-    width: 30px;
-    height: 23px;
-    font-family: 'Pacifico-Regular';
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 23px;
-color: #FFFFFF;
-text-decoration: none;
-}
-
-.header__language:hover{
-text-decoration: underline;
-}
-.header__language_rus{
-    margin-right:18px;
- 
-}
-
-
-.lead{
-    width: 985px;
-    height: 950px;
-    margin: 48px auto 0px;
-}
-
-.intro{
-    width: 984px;
-    display: flex;
-    margin:0px auto;
-    color:white;
-    background-color: #2a2c2f;
-    text-align: left;
-    padding-bottom:92px ;
-}
-
-.intro__left{
-    width:75%
-}
-
-.intro__right{
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
-    padding-left:18px;
-}
-.intro__text{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    margin-bottom: 34px;
-    margin: 0px 0px 0px 0px;
-}
-
-.intro__about-text{
-    margin:0px;
-}
-
-.intro__left .intro__text{
-    margin-bottom:18px;
-}
-.item-main{
-    background-color:#2a2c2f ;
-    width: 984px;
-    display: flex;
-    margin: 0px auto;
-    flex-wrap: wrap;
-    
-}
-
-
-
-/*Секция с фотограффиями */
-
-.photo-grid{
-    margin:0px auto 92px;
-    width: 1184px;
-    height: 596px;
-    display: grid;
-    grid-template-rows:1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}

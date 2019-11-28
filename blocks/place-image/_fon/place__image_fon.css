@@ -1,0 +1,9 @@
+.place-image__fon{
+    background-image: url(../../../images/fanPlace.png);
+    width: 284px;
+    height: 330px;
+ margin-top: -335px;
+ z-index: 1;
+ position: relative;
+ opacity: 0;
+    }

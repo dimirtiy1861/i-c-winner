@@ -1,5 +1,6 @@
 @import url(./__image/place-image__image.css);
 @import url(./__block/place-image__block.css);
+@import url(./_fon/place-image__fon.css);
 
 
 
@@ -7,9 +8,11 @@
 
 .place-image{
     width: 248px;
-    color:white;
-   
-    margin:0px auto 102px;
-  
+    color:white;   
+    margin:0px auto 102px;  
     position: relative;
+}
+
+.place-image:hover{
+    opacity: .5;
 }

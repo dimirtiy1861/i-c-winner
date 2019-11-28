@@ -1,0 +1,13 @@
+@import url(./__language/header__language.css);
+@import url(./_image/lead__image.css);
+@import url(./__text/lead__text.css);
+
+.header{
+    width: 1184px;
+    height: 52px;
+    padding-top:30px;
+    display: flex;
+    align-items: flex-end;
+    margin: 0px auto 100px;
+    
+}

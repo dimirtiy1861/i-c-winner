@@ -1,4 +1,5 @@
 @import url(./__image/baykal__image.css);
+@import url(../baykal/__fon/baykal__fon.css);
 
 .baykal{
     width:1184px ;
@@ -9,4 +10,7 @@
  
   
  
+}
+.baykal:hover{
+    opacity:.2;
 }

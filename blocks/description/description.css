@@ -1,20 +1,20 @@
-@import url(./_title/description__title_place_intro.css);
-@import url(./__subtitle/description__subtitle_place_intro.css);
-@import url(./_title/description__title_place_lead.css);
-@import url(./__subtitle/description__subtitle_place_lead.css);
-@import url(./__subtitle/description__subtitle_place_place-image.css);
-@import url(./_title/description__title_place_place-image.css);
-@import url(./__subtitle/description__subtitle_place_additional.css);
-@import url(./_title/description__title_place_additional.css);
-@import url(./__subtitle/description__subtitle_place_fotograph.css);
-@import url(./_title/description__title_place_fotograph.css);
-@import url(./__subtitle/description__subtitle_place_baykal.css);
-@import url(./_title/description__title_place_baykal.css);
-@import url(./_title/description__title_place_geraldry.css);
-@import url(./__subtitle/description__subtitle_place_barents.css);
-@import url(./_title/description__title_place_barents.css);
-@import url(./__subtitle/description__subtitle_place_video.css);
-@import url(./_title/description__title_place_video.css);
+@import url(./__subtitle/_place/description__subtitle_place_additional.css);
+@import url(./__subtitle/_place/description__subtitle_place_barents.css);
+@import url(./__subtitle/_place/description__subtitle_place_baykal.css);
+@import url(./__subtitle/_place/description__subtitle_place_fotograph.css);
+@import url(./__subtitle/_place/description__subtitle_place_intro.css);
+@import url(./__subtitle/_place/description__subtitle_place_lead.css);
+@import url(./__subtitle/_place/description__subtitle_place_place-image.css);
+@import url(./__subtitle/_place/description__subtitle_place_video.css);
+@import url(./__title/_place/description__title_place_additional.css);
+@import url(./__title/_place/description__title_place_barents.css);
+@import url(./__title/_place/description__title_place_baykal.css);
+@import url(./__title/_place/description__title_place_fotograph.css);
+@import url(./__title/_place/description__title_place_geraldry.css);
+@import url(./__title/_place/description__title_place_intro.css);
+@import url(./__title/_place/description__title_place_lead.css);
+@import url(./__title/_place/description__title_place_place-image.css);
+@import url(./__title/_place/description__title_place_video.css);
 
 
 .description{
